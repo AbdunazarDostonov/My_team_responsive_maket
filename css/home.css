@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Livvic", sans-serif;
+}
+
+.shape {
+  z-index: -1;
+}
+
+/* header_______ */
+
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+header .shape1 {
+  position: absolute;
+  top: 35%;
+  left: 0;
+}
+
+header .shape2 {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.link a:nth-child(2) {
+  margin-left: 20px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .hero-text:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+  top: 85px;
+  left: 59%;
+}
+
+/* MAIN______ */
+
+/* TEAM_____ */
+
+#team {
+  position: relative;
+}
+
+.shape3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.team h1 {
+  margin: 0;
+}
+
+.team-text h3 {
+  color: #f67e7e;
+  margin-bottom: 10px;
+}
+
+.info:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.info img {
+  width: 72px;
+  margin-right: 25px;
+}
+
+.team-text .text {
+  color: rgb(191, 191, 191);
+}
+
+.team-title {
+  position: relative;
+}
+
+.team-title::before {
+  content: "";
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background-color: #f67e7e;
+}
+
+/* SERVICE */
+
+#service {
+  position: relative;
+}
+
+.shape4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shape4-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.service-card {
+  padding: 0 1rem;
+  position: relative;
+}
+
+.nails {
+  position: absolute;
+  top: -10%;
+  left: 40%;
+  z-index: -1;
+}
+
+.service-card .text {
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  color: #79c8c7;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* About-us____ */
+
+#about_us {
+  position: relative;
+}
+
+.shape6 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* footer */
+
+.footer-nav .logo {
+  margin-bottom: 28px;
+}
+
+.footer-addres .text {
+  color: rgb(191, 191, 191);
+}
+
+i {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.footer-social {
+  justify-content: right;
+  text-align: end;
+}
+
+.footer-social .text {
+  color: rgb(191, 191, 191);
+  flex-grow: 2;
+}
+
+.footer-icons {
+  margin-bottom: 48px;
+}
